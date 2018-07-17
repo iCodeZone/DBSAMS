@@ -1,0 +1,30 @@
+#jbzl{
+    display:none;
+}
+#mmgl{
+    display:block;
+}
+#grxx{
+    display:block;
+}
+#term{
+	display:none;
+}
+#kcname{
+    display:none;
+}
+#kecheng{
+       display:none;
+       flex-wrap:wrap;
+       justify-content:space-around;
+}
+#message{
+	display:none;
+}
+#Alter{
+	display:none;
+}
+#pict{
+	width:200px;
+	height:200px;
+}

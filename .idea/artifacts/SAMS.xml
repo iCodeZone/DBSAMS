@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SAMS">
+    <output-path>$PROJECT_DIR$/classes/artifacts/SAMS</output-path>
+    <root id="root" />
+  </artifact>
+</component>

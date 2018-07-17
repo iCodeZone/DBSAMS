@@ -1,0 +1,12 @@
+#term{
+	display:block;
+}
+#kecheng{
+       display:flex;
+       flex-wrap:wrap;
+       justify-content:space-around;
+}
+#pict{
+	width:200px;
+	height:200px;
+}
