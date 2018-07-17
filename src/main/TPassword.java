@@ -27,16 +27,10 @@ public class TPassword extends HttpServlet {
 		String newpassword = request.getParameter("newpassword");
 		HttpSession session = request.getSession();
 		String tno = (String)session.getAttribute("tno");
-		//TeacherDao t = new TeacherDao();\
-//		System.out.println(password);
-//		System.out.println(newpassword);
-//		System.out.println(tno);
 		if(new TeacherDao().AlterPassword(tno, password, newpassword)){
 			session.setAttribute("successpassword", "1");
 		}
 		else session.setAttribute("successpassword", "0");
-		//RequestDispatcher rd = request.getRequestDispatcher("TeacherPage/TeacherPage.jsp");
-		//rd.forward(request, response);
 		response.sendRedirect("TeacherPage/AlterPassword.jsp");
 	}
 
